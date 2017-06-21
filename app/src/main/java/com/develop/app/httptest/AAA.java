@@ -5,5 +5,5 @@ package com.develop.app.httptest;
  */
 
 public class AAA {
-    private int a;
+    private int a,b;
 }
