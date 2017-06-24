@@ -8,6 +8,22 @@
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:text="Hello World!" app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zhuce"
+        tools:layout_editor_absoluteX="147dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttondengl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dengl" />
 
 </android.support.constraint.ConstraintLayout>
