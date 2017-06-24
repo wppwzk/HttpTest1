@@ -124,8 +124,10 @@ public class MainActivity extends Activity {
 					if(islanServertest) {
 						sb.append("name=" + strUserName);
 						sb.append("&password=" + strPassword);
+						sb.append("&email="+"ybybuuds@sina.com");
 						Log.i("logB", "params=" + sb.toString());
-						url = "http://115.159.120.114:8080/webtest-ok1/api/register";
+						//url = "http://115.159.120.114:8080/webtest-ok1/api/register";
+						url = "http://bbs.bmbhome.org/api/login";
 					} else {
 						url = "http://www.baidu.com";
 					}
@@ -154,7 +156,8 @@ public class MainActivity extends Activity {
 					sb.append("name=" + strUserName);
 					sb.append("&password=" + strPassword);
 					Log.i("logB", "params=" + sb.toString());
-					url = "http://115.159.120.114:8080/webtest-ok1/api/login"+"?"+sb.toString();
+					//url = "http://115.159.120.114:8080/webtest-ok1/api/login"+"?"+sb.toString();
+					url = "http://bbs.bmbhome.org/api/login"+"?"+sb.toString();
 				} else {
 					url = "http://www.baidu.com";
 				}
